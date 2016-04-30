@@ -34,6 +34,7 @@ Runs linter, tests, and then on success, compiles your application to `~/dist`
 + [redux-actions](https://github.com/acdlite/redux-actions) - Flux Standard Action utilities for Redux.
 + [redux-thunk](https://github.com/gaearon/redux-thunk) - Thunk middleware for Redux
 + [redux-devtools](https://github.com/gaearon/redux-devtools) - DevTools for Redux with hot reloading, action replay, and customizable UI
+* [redux-logger](https://github.com/theaqua/redux-logger) - Logger middleware for redux
 * [babel-react-optimize](https://github.com/thejameskyle/babel-react-optimize) - A Babel preset and plugins for optimizing React code.
 
 ### Other
