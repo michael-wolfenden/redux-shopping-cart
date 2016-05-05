@@ -2,6 +2,8 @@
 
 My take on the [shopping cart example](https://github.com/reactjs/redux/tree/master/examples/shopping-cart) from the redux source
 
+[![Build Status][build-badge]][build]
+
 ## Getting started
 
 This will install all npm packages and then run a live reload server at http://localhost:8080/index.html
@@ -41,3 +43,6 @@ Runs linter, tests, and then on success, compiles your application to `~/dist`
 
 + [webpack](https://github.com/webpack/webpack) - A bundler for javascript and friends
 + [babel-plugin-transform-runtime](https://babeljs.io/docs/plugins/transform-runtime/) - ES2015 pollyfils
+
+[build-badge]: https://travis-ci.org/michael-wolfenden/redux-shopping-cart.svg?style=flat-square
+[build]: https://travis-ci.org/michael-wolfenden/redux-shopping-cart
