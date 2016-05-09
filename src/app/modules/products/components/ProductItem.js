@@ -13,7 +13,7 @@ class ProductItem extends Component {
         onAddToCartClicked: func.isRequired,
     }
 
-    onButtonClick = () => this.props.onAddToCartClicked(this.props.product.id);
+    onButtonClick = () => this.props.onAddToCartClicked(this.props.product.id)
 
     render() {
         const { product } = this.props
