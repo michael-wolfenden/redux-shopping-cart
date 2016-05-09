@@ -21,6 +21,11 @@ const webpackConfig = {
     },
 
     resolve: {
+        // set root resolver to app directory.
+        // this allows using absolute paths for imports starting from
+        // the app folder instead of relative paths
+        // ie import { } from dir/dir/dir vs
+        // ie import { } from ../../../
         root: PATHS.appDir,
     },
 

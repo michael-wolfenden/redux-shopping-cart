@@ -4,6 +4,7 @@ const sourceMappingURL = require('source-map-url')
 
 const addManifestChunckContentsToHtmlWebpackPluginOptions = (compilation, htmlWebpackPluginOptions) => {
     const manifestAssets = compilation.getStats().toJson().assetsByChunkName.manifest
+    // for example ["assets/js/manifest.d66cbac63166bbd04674.js","assets/js/manifest.d66cbac63166bbd04674.js.map"]
 
     manifestAssets
         .forEach(manifestAsset => {
