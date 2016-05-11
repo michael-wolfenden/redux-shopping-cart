@@ -20,7 +20,7 @@
     "react-dom": "15.0.2",
     "redux": "3.5.2",
     "redux-actions": "0.9.1",
-    "redux-thunk": "2.0.1"
+    "redux-thunk": "2.1.0"
   },
   "devDependencies": {
     "babel-core": "6.8.0",
