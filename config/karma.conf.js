@@ -21,6 +21,11 @@ module.exports = config => config.set({
     // report results in this format
     reporters: ['mocha'],
 
+    // silence bundling output
+    webpackServer: {
+        quiet: true,
+    },
+
     webpack: {
         devtool: 'inline-source-map',
         resolve: webpackDevConfig.resolve,
