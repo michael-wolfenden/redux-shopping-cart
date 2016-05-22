@@ -1,8 +1,8 @@
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const AddManifestToIndexTemplatePlugin = require('./add-manifest-to-index-template-webpack-plugin')
-const fse = require('fs-extra')
 
 const PATHS = require('./paths')
 const pkg = require('../package.json')
@@ -137,10 +137,11 @@ const webpackConfig = {
         // (ref: https://github.com/webpack/webpack/issues/1315)
         new AddManifestToIndexTemplatePlugin(),
 
-        // when done copy /public => /dist
-        function onDone() {
-            this.plugin('done', () => fse.copySync(PATHS.publicDir, PATHS.distDir))
-        },
+        // copy /public => /dist
+        new CopyWebpackPlugin([{
+            from: PATHS.publicDir,
+            to: PATHS.distDir,
+        }]),
     ],
 }
 
