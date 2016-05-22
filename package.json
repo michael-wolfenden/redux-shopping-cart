@@ -6,7 +6,7 @@
   "main": "src/app/index.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "webpack-dev-server --config config/webpack.config.development.js --progress --colors --hot --inline",
+    "start": "webpack-dev-server --config config/webpack.config.development.js --progress --hot --inline",
     "production": "karma start config/karma.conf.js --single-run && webpack --config config/webpack.config.production.js --progress --colors --bail",
     "test": "karma start config/karma.conf.js"
   },
