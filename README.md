@@ -3,6 +3,7 @@
 My take on the [shopping cart example](https://github.com/reactjs/redux/tree/master/examples/shopping-cart) from the redux source
 
 [![Build Status][build-badge]][build]
+[![License][license-badge]][license]
 
 ## Getting started
 
@@ -46,3 +47,5 @@ Runs linter, tests, and then on success, compiles your application to `~/dist`
 
 [build-badge]: https://travis-ci.org/michael-wolfenden/redux-shopping-cart.svg?style=flat-square
 [build]: https://travis-ci.org/michael-wolfenden/redux-shopping-cart
+[license-badge]: https://img.shields.io/github/license/michael-wolfenden/redux-shopping-cart.svg?style=flat-square
+[license]: https://raw.githubusercontent.com/michael-wolfenden/redux-shopping-cart/master/LICENSE
