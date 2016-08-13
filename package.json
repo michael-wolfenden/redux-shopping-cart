@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "6.9.2",
-    "lodash.keyby": "4.4.0",
+    "lodash.keyby": "4.6.0",
     "react": "15.2.1",
     "react-dom": "15.2.1",
     "redux": "3.5.2",
