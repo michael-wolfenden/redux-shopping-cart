@@ -51,7 +51,7 @@
     "karma-mocha-reporter": "2.0.4",
     "karma-phantomjs-launcher": "1.0.1",
     "karma-webpack": "1.7.0",
-    "mocha": "2.5.3",
+    "mocha": "3.1.1",
     "open-browser-webpack-plugin": "0.0.2",
     "phantomjs-prebuilt": "2.1.8",
     "react-addons-test-utils": "15.2.1",
